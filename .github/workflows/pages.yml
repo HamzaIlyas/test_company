@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm ci
+      - run: npm install
       - run: npm run build          # vite build → ./dist
 
       - run: cp CNAME dist/         # keep your custom domain in the output
