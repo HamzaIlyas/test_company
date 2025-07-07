@@ -9,6 +9,7 @@ import SolutionsPage from './pages/SolutionsPage';
 import WorkPage from './pages/WorkPage';
 import ContactPage from './pages/ContactPage';
 
+
 function ScrollToTop() {
   const { pathname } = useLocation();
 
